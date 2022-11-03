@@ -1,0 +1,51 @@
+* Comment */
+
+body{
+  background-color: lightblue;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px){
+  body {
+    background-color: green;
+  }
+  p{
+    display: none;
+  }
+}
+
+h2, h3{
+  font-size: 50px;
+  color: cadetblue;
+  text-align: center;
+}
+
+#submit{
+  background-color: burlywood;
+}
+
+.form_input{
+  border-radius: 6px;
+  border-color: blueviolet;
+}
+
+p.centered {
+  text-align: center;
+  color: purple;
+}
+
+p{
+  font-size: 1.5rem;
+  padding: 2em;
+}
+
+.side-to-side {
+  display: block;
+  border: solid
+}
+
+/*angosto*/
+.narrow {
+  display: inline;
+  border: solid
+}

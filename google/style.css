@@ -1,0 +1,33 @@
+nav {
+    text-align: right;      
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline
+}
+form {
+    text-align: center;
+    
+}
+
+#search {
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.advance {
+    text-align: left;
+}
+
+.mb {
+    margin-bottom: 1vh;
+}
+
+#advance_btn {
+    background-color: blue;
+    color: white;
+}

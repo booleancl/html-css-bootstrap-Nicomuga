@@ -1,11 +1,12 @@
+body {
+    font-family: sans-serif;
+}
 nav {
     text-align: right;      
 }
-
 ul {
     list-style: none;
 }
-
 li {
     display: inline
 }
@@ -13,21 +14,101 @@ form {
     text-align: center;
     
 }
-
 #search {
     border-radius: 6px;
     margin-bottom: 5px;
 }
-
 .advance {
     text-align: left;
 }
-
 .mb {
-    margin-bottom: 1vh;
+    margin-bottom: 3px;
 }
-
+.mt {
+    margin-top: 40px;
+}
+.mlt {
+    margin-left: 40px;
+    margin-top: 40px;
+}
 #advance_btn {
     background-color: blue;
     color: white;
+}
+.separator {
+    border-bottom: 5px solid #ebebeb;
+}
+.upperbar {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+  }
+
+.alri {
+    align-items: right;
+    text-align: right;
+    align-content: right;
+    text-align: right;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+.button1:hover {opacity: 0.6}
+
+.barsearch {
+    width: 100% ; 
+    border-radius: 15px; 
+    
+}
+.floatl {
+    float: left;
+}
+
+.clearb {
+    clear: both;
+}
+
+.tformat {
+    margin: 12px 10px;
+    display: table-cell;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mh {
+    
+    position: relative;
+    max-height: 92px;
+    
 }
